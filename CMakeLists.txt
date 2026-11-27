@@ -13,7 +13,7 @@ else()
     include(FetchContent)
     FetchContent_Declare(
         JUCE
-        GIT_REPOSITORY https://github.com
+        GIT_REPOSITORY https://github.com/juce-framework/JUCE.git
         GIT_TAG        8.0.4
         GIT_SHALLOW    TRUE
     )
@@ -65,3 +65,4 @@ target_link_libraries(LA2A_Clone PRIVATE
     juce::juce_dsp
     juce::juce_recommended_config_flags
     juce::juce_recommended_warning_flags)
+
