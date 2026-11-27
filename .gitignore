@@ -1,0 +1,12 @@
+﻿build/
+build_mac/
+pkg_root/
+*.pkg
+*.exe
+*.user
+.vs/
+assets/knob_frames/
+assets/vu_frames/
+assets/needle_frames/
+
+assets/temp_*/
